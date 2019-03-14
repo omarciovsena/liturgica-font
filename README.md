@@ -37,7 +37,7 @@ margin-bottom: 20px;
 padding: 20px; border-radius: 4px;">
 <img src="https://pbs.twimg.com/profile_images/1080101396790329344/8c2MW9cu_400x400.jpg" data-canonical-src="https://pbs.twimg.com/profile_images/1080101396790329344/8c2MW9cu_400x400.jpg" height="80" style="border-radius: 50%; margin-right: 20px;"/>
 
-[Kaiky Fernandez](https://twitter.com/soyelfernandez)<br/>https://www.behance.net/fernandezkaiky
+[Kaiky Fernandez](https://www.behance.net/kaikyfernandez)<br/>https://www.behance.net/fernandezkaiky
 <br/>
 <img src="https://img.shields.io/twitter/follow/soyelfernandez.svg?label=Twitter" />
 
