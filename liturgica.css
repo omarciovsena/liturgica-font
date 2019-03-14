@@ -1,0 +1,340 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Liturgica";
+  src: url("./fonts/Liturgica-Light.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Liturgica-Light.eot?#iefix") format("embedded-opentype"),
+    /* Modern Browsers */ url("./fonts/Liturgica-Light.otf") format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/Liturgica-Light.svg#liturgica")
+      format("svg"); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Liturgica";
+  src: url("./fonts/Liturgica-Thin.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Liturgica-Thin.eot?#iefix") format("embedded-opentype"),
+    /* Modern Browsers */ url("./fonts/Liturgica-Thin.otf") format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/Liturgica-Thin.svg#liturgica")
+      format("svg"); /* Legacy iOS */
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Liturgica";
+  src: url("./fonts/Liturgica-Medium.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Liturgica-Medium.eot?#iefix") format("embedded-opentype"),
+    /* Modern Browsers */ url("./fonts/Liturgica-Medium.otf") format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/Liturgica-Medium.svg#liturgica")
+      format("svg"); /* Legacy iOS */
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Liturgica";
+  src: url("./fonts/Liturgica-Semibold.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Liturgica-Semibold.eot?#iefix") format("embedded-opentype"),
+    /* Modern Browsers */ url("./fonts/Liturgica-Semibold.otf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/Liturgica-Semibold.svg#liturgica")
+      format("svg"); /* Legacy iOS */
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Liturgica";
+  src: url("./fonts/Liturgica-Bold.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Liturgica-Bold.eot?#iefix") format("embedded-opentype"),
+    /* Modern Browsers */ url("./fonts/Liturgica-Bold.otf") format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/Liturgica-Bold.svg#liturgica")
+      format("svg"); /* Legacy iOS */
+  font-weight: 700;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "Liturgica";
+  content: attr(data-icon);
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="liturgica-"]:before {
+  font-family: "Liturgica";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Periods of the liturgical calendar */
+
+.liturgica-advent:before {
+  content: "a";
+}
+
+.liturgica-christmas:before {
+  content: "b";
+}
+
+.liturgica-epiphany:before {
+  content: "c";
+}
+
+.liturgica-baptism-of-the-lord:before {
+  content: "d";
+}
+
+.liturgica-transfiguration:before {
+  content: "e";
+}
+
+.liturgica-lent:before {
+  content: "f";
+}
+
+.liturgica-palm-sunday:before {
+  content: "g";
+}
+
+.liturgica-easter:before {
+  content: "h";
+}
+
+.liturgica-rise:before {
+  content: "i";
+}
+
+.liturgica-pentecost:before {
+  content: "j";
+}
+
+.liturgica-trinity-sunday:before {
+  content: "k";
+}
+
+.liturgica-common-time:before {
+  content: "l";
+}
+
+.liturgica-holy-cross:before {
+  content: "m";
+}
+
+.liturgica-holy-day-of-all-saints:before {
+  content: "n";
+}
+
+.liturgica-christ-king-of-the-universe:before {
+  content: "o";
+}
+
+/* Routine of the Church */
+
+.liturgica-bible:before {
+  content: "p";
+}
+
+.liturgica-liturgy:before {
+  content: "q";
+}
+
+.liturgica-baptism:before {
+  content: "r";
+}
+
+.liturgica-mission-beyond-frontier:before {
+  content: "s";
+}
+
+.liturgica-bible-class:before {
+  content: "t";
+}
+
+.liturgica-small-group:before {
+  content: "u";
+}
+
+.liturgica-camp:before {
+  content: "v";
+}
+
+/* Groups */
+
+.liturgica-men:before {
+  content: "w";
+}
+
+.liturgica-women:before {
+  content: "x";
+}
+
+.liturgica-couples:before {
+  content: "y";
+}
+
+.liturgica-children:before {
+  content: "z";
+}
+
+/* Order of worship */
+
+.liturgica-worship:before {
+  content: "A";
+}
+
+.liturgica-prayer:before {
+  content: "B";
+}
+
+.liturgica-1-reading:before {
+  content: "C";
+}
+
+.liturgica-confession:before {
+  content: "D";
+}
+
+.liturgica-psalms:before {
+  content: "E";
+}
+
+.liturgica-mutual-peace:before {
+  content: "F";
+}
+
+.liturgica-songs:before {
+  content: "G";
+}
+
+.liturgica-offertory:before {
+  content: "H";
+}
+
+.liturgica-gospel:before {
+  content: "I";
+}
+
+.liturgica-supper:before {
+  content: "J";
+}
+
+.liturgica-2-reading:before {
+  content: "K";
+}
+
+.liturgica-send:before {
+  content: "L";
+}
+
+/* Deacons */
+
+.liturgica-libray:before {
+  content: "M";
+}
+
+.liturgica-communication:before {
+  content: "N";
+}
+
+.liturgica-coffee:before {
+  content: "O";
+}
+
+.liturgica-kitchen:before {
+  content: "P";
+}
+
+.liturgica-decoration:before {
+  content: "Q";
+}
+
+.liturgica-structure:before {
+  content: "R";
+}
+
+.liturgica-finances:before {
+  content: "S";
+}
+
+.liturgica-multimedia:before {
+  content: "T";
+}
+
+.liturgica-cleaning-and-maintenance:before {
+  content: "U";
+}
+
+.liturgica-cultural-production:before {
+  content: "V";
+}
+
+/* extras */
+
+.liturgica-liturgical-calendar:before {
+  content: "W";
+}
+
+.liturgica-civil-calendar:before {
+  content: "X";
+}
+
+.liturgica-Behance:before {
+  content: "Y";
+}
+
+.liturgica-supper-2:before {
+  content: "Z";
+}
+
+.liturgica-cross:before {
+  content: "1";
+}
+
+.liturgica-cross-2:before {
+  content: "2";
+}
+
+.liturgica-heart:before {
+  content: "3";
+}
+
+.liturgica-heart-2:before {
+  content: "4";
+}
+
+.liturgica-star:before {
+  content: "5";
+}
+
+.liturgica-star-2:before {
+  content: "6";
+}
+
+.liturgica-star-3:before {
+  content: "7";
+}
+
+.liturgica-cloud:before {
+  content: "8";
+}
+
+.liturgica-cloud-2:before {
+  content: "9";
+}
+
+.liturgica-sun:before {
+  content: "0";
+}
