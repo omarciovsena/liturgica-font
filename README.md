@@ -2,7 +2,7 @@
 
 <div style="text-align: center;">
 <img src="https://img.shields.io/badge/License-OFL-GREEN.svg" />
-<img src="https://img.shields.io/github/languages/repo-size/ofallante/liturgica-fonts.svg" />
+<img src="https://img.shields.io/github/languages/code-size/ofallante/liturgica-font.svg" />
 </div>
 <br/>
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/20f95577013721.5c84081489070.png"/>
