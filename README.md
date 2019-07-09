@@ -56,7 +56,7 @@ margin-bottom: 20px;
 padding: 20px; border-radius: 4px;">
 <img src="https://avatars0.githubusercontent.com/u/3450717?s=460&v=4" height="60" style="border-radius: 50%; margin-right: 20px;"/>
 
-[Marcio Sena](https://twitter.com/ofallante)<br/>
-<img src="https://img.shields.io/twitter/follow/ofallante.svg?label=Twitter" />
+[Marcio Sena](https://twitter.com/marciovsena``)<br/>
+<img src="https://img.shields.io/twitter/follow/marciovsena.svg?label=Twitter" />
 
 </div>
